@@ -29,5 +29,10 @@ namespace _10_to_2_ss
         {
             
         }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
