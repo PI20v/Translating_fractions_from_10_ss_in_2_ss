@@ -8,3 +8,13 @@ D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.csproj.GenerateResource.cache
 D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.csproj.CoreCompileInputs.cache
 D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.exe
 D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.pdb
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\bin\Debug\10_to_2_ss.exe.config
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\bin\Debug\10_to_2_ss.exe
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\bin\Debug\10_to_2_ss.pdb
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\10_to_2_ss.csprojAssemblyReference.cache
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\_10_to_2_ss.Form1.resources
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\_10_to_2_ss.Properties.Resources.resources
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\10_to_2_ss.csproj.GenerateResource.cache
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\10_to_2_ss.csproj.CoreCompileInputs.cache
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\10_to_2_ss.exe
+D:\Other\Work\Универ\4 семестр\Групповая динамика\Проект\10_to_2_ss\obj\Debug\10_to_2_ss.pdb
