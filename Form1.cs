@@ -34,7 +34,7 @@ namespace _10_to_2_ss
 
         private void TextBox2_TextChanged_1(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
