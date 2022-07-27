@@ -1,0 +1,10 @@
+D:\Z\10_to_2_ss\bin\Debug\10_to_2_ss.exe.config
+D:\Z\10_to_2_ss\bin\Debug\10_to_2_ss.exe
+D:\Z\10_to_2_ss\bin\Debug\10_to_2_ss.pdb
+D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.csprojAssemblyReference.cache
+D:\Z\10_to_2_ss\obj\Debug\_10_to_2_ss.Form1.resources
+D:\Z\10_to_2_ss\obj\Debug\_10_to_2_ss.Properties.Resources.resources
+D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.csproj.GenerateResource.cache
+D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.csproj.CoreCompileInputs.cache
+D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.exe
+D:\Z\10_to_2_ss\obj\Debug\10_to_2_ss.pdb
