@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace BinaryTranslate
 {
@@ -13,7 +14,14 @@ namespace BinaryTranslate
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(new Translate("10.64").CovertToBinary());
+			try
+			{
+				Console.WriteLine(new Translate("10.6735.33765.376").CovertToBinary());
+			}
+			catch (Exception exp)
+			{
+				MessageBox.Show(exp.Message);
+			}
 			Console.ReadLine();
 		}
 	}
