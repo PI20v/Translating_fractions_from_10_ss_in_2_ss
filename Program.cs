@@ -14,6 +14,7 @@ namespace BinaryTranslate
 		static void Main(string[] args)
 		{
 			Console.WriteLine(new Translate("10.64").CovertToBinary());
+			Console.ReadLine();
 		}
 	}
 }
