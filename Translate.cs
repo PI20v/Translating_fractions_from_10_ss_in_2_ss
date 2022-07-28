@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace _10_to_2_ss
 {
@@ -8,15 +9,30 @@ namespace _10_to_2_ss
         private int digit = 32;
         private string result;
         private string inputString;
+
         public Translate(string str)
         {
             inputString = str;
         }
+
         public string CovertToBinary()
         {
             string[] domain = inputString.Split('.', ',');
-            result += Convert.ToString(Convert.ToInt32(domain[0]), 2);
-            if (domain.Length == 1) throw new Exception("Введено целое число!");
+            bool check = false;
+            while (check == false)
+            {
+                try
+                {
+                    result += Convert.ToString(int.Parse(domain[0]), 2);
+                    check = true;
+                }
+                catch
+                {
+                   MessageBox.Show("Некорректный ввод!");
+                   break;
+                }
+            }            
+            if (domain.Length == 1) return result;
             else if (domain.Length > 2) throw new Exception("Введено неккоректное число!");
             result += '.';
             int right = Convert.ToInt32(domain[1]);

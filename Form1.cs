@@ -10,6 +10,13 @@ namespace _10_to_2_ss
             InitializeComponent();
         }
 
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            string inputNumber = textBox1.Text;
+            Translate output = new Translate(inputNumber);
+            label2.Text = output.CovertToBinary();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -34,5 +41,10 @@ namespace _10_to_2_ss
         {
             
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }        
     }
 }

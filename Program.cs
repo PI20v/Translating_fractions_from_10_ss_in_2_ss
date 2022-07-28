@@ -14,19 +14,3 @@ namespace _10_to_2_ss
         }
     }
 }
-
-//    class DemoApi
-//    {
-//        static void Main(string[] args)
-//        {
-//            try
-//            {
-//                Console.WriteLine(new Translate("10.6735").CovertToBinary());
-//            }
-//            catch (Exception exp)
-//            {
-//                MessageBox.Show(exp.Message);
-//            }
-//            Console.ReadLine();
-//        }
-//    }

@@ -42,13 +42,14 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(219, 82);
+            this.button1.Location = new System.Drawing.Point(298, 81);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Перевод";
             this.toolTip1.SetToolTip(this.button1, "Запуск работы программы");
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label1
             // 
@@ -77,7 +78,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(237, 9);
+            this.label3.Location = new System.Drawing.Point(315, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 24);
             this.label3.TabIndex = 7;
@@ -92,13 +93,14 @@
             // 
             this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(189, 43);
+            this.label2.Location = new System.Drawing.Point(199, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 30);
+            this.label2.Size = new System.Drawing.Size(338, 30);
             this.label2.TabIndex = 14;
             this.label2.Text = "...";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.toolTip1.SetToolTip(this.label2, "Результат в двоичной системе счисления");
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // label4
             // 
@@ -120,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 134);
+            this.ClientSize = new System.Drawing.Size(554, 134);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
