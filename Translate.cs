@@ -19,7 +19,7 @@ namespace BinaryTranslate
             {
                 string[] domain = inputString.Split('.', ',');
                 result += Convert.ToString(Convert.ToInt32(domain[0]), 2);
-                if (domain.Length == 1) throw new Exception("Введено целое число!");
+                if (domain.Length == 1) return result;
                 else if (domain.Length > 2) throw new Exception("Введено неккоректное число!");
                 result += '.';
                 int right = Convert.ToInt32(domain[1]);

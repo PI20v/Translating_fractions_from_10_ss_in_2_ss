@@ -16,7 +16,7 @@ namespace BinaryTranslate
 		{
 			try
 			{
-				Console.WriteLine(new Translate("10.6735.33765.376").CovertToBinary());
+				Console.WriteLine(new Translate("10.65345").CovertToBinary());
 			}
 			catch (Exception exp)
 			{
