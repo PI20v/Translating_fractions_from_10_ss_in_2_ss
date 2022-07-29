@@ -18,7 +18,13 @@ namespace BinaryTranslate
             public string CovertToBinary()
             {
                 string[] domain = inputString.Split('.', ',');
-                result += Convert.ToString(Convert.ToInt32(domain[0]), 2);
+                int left = Convert.ToInt32(domain[0]);
+                if (left < 0)
+                {
+                    result += "-";
+                    left = left * -1;
+                }
+                result += Convert.ToString(left, 2);
                 if (domain.Length == 1) return result;
                 else if (domain.Length > 2) throw new Exception("Введено неккоректное число!");
                 result += '.';
