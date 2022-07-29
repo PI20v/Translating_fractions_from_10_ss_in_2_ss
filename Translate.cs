@@ -18,12 +18,24 @@ namespace _10_to_2_ss
         public string CovertToBinary()
         {
             string[] domain = inputString.Split('.', ',');
+
+            if(domain[0] == "-0")
+                result += "-";
+
             bool check = false;
+            int left;            
             while (check == false)
-            {
+            {  
                 try
                 {
-                    result += Convert.ToString(int.Parse(domain[0]), 2);
+                    left = Convert.ToInt32(domain[0]);
+
+                    if (left < 0)
+                    {
+                        result += "-";
+                        left *= -1;
+                    }
+                    result += Convert.ToString(left, 2);
                     check = true;
                 }
                 catch
@@ -31,14 +43,34 @@ namespace _10_to_2_ss
                    MessageBox.Show("Некорректный ввод!");
                    break;
                 }
-            }            
+            }
+
             if (domain.Length == 1) return result;
-            else if (domain.Length > 2) throw new Exception("Введено неккоректное число!");
+            else if (domain.Length > 2)
+            {
+                MessageBox.Show("Некорректный ввод!");
+                result = "0";
+            }
             result += '.';
-            int right = Convert.ToInt32(domain[1]);
+
+            int right = 0;
+            check = false;
+            while (check == false)
+            {
+                try
+                {                   
+                    right = Convert.ToInt32(domain[1]);
+                    check = true;
+                }
+                catch
+                {
+                    MessageBox.Show("Некорректный ввод!");
+                    break;
+                }
+            }
             for (int i = 0; i < digit; i++)
             {
-                right = right * 2;
+                right *= 2;
                 if (right.ToString().Count() > domain[1].Count())
                 {
                     string buf = right.ToString();
@@ -47,9 +79,7 @@ namespace _10_to_2_ss
                     result += '1';
                 }
                 else
-                {
                     result += '0';
-                }
             }
             return result;
         }

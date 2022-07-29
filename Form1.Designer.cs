@@ -91,11 +91,12 @@
             // 
             // label2
             // 
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(199, 43);
+            this.label2.Location = new System.Drawing.Point(189, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(338, 30);
+            this.label2.Size = new System.Drawing.Size(349, 30);
             this.label2.TabIndex = 14;
             this.label2.Text = "...";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -120,9 +121,11 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 134);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(553, 134);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -130,6 +133,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
